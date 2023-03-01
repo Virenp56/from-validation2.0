@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: #1F2024;
+    font-family: "Inter";
+}
+
+#form {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background-color: #173540;
+    backdrop-filter: blur(15);
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+}
+
+span {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+#form input {
+    border: 0;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 10px 15px;
+    width: 100%;
+    color: #173540;
+}
+
+#form input:focus {
+    outline: none;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: #173540;
+    opacity: 0.6;
+    /* padding-left: 10px; */
+}
+
+.fname-input-div,
+.lname-input-div,
+.contact-input-div,
+.personal-input-div,
+.organizational-input-div,
+.salary-input-div,
+.password-input-div,
+.button-div {
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+#submitButton {
+    font-size: 18px;
+    background: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    color: #173540;
+}
+
+.red {
+    color: rgb(241, 49, 49);
+
+}
